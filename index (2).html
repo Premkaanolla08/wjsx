@@ -1,0 +1,74 @@
+<style>
+    .card {
+        height: 520px;
+        width: 302px;
+        background-color: white;
+        box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+        border: 1.5px solid;
+        box-sizing:border-box;
+        margin-top: 30px;
+        border-radius: 0.5rem;
+        transition-property: box-shadow, transform;
+        transition-duration: 350ms;
+        transition-timing-function: ease;
+    }
+     .card:hover {
+        transform: translateY(-8px);
+    }
+    .img1 {
+        height: 200px;
+        width: 300px;
+        object-fit: fill;
+        border-radius: 0.4rem;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit,300px);
+        gap: 20px;
+        justify-content: center;
+    }
+    .heading {
+        text-align: center;
+        font-family: "Poppins";
+    }
+    .sub {
+        padding-left: 10px;
+        width:280px;
+        font-family: "Poppins";
+
+    }
+    .a-link {
+        font-family: "Poppins";
+        padding-left: 10px;
+    }
+</style>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>React Projects</title>
+  <!-- Linking Google fonts for icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <head>
+    <body>
+       <div class="grid-container">
+        <div class="card">
+          <img class="img1" src="d:\Prem Projects\Projects\Weather App\gemini_ai_1735298869742.webp">
+          <h2 class="heading">Gemini AI Chatbot</h2>
+          <p class="sub">A modern React + Vite app that clones Google Gemini’s chat UI.It connects to the Gemini API to handle user prompts and responses.Features include typing effects, responsive design, and custom CSS styling.</p>
+          <a class="a-link"href="https://premkaanolla08.github.io/Gemini-clone-React/">Click</a>
+        </div>
+        <div class="card">
+          <img class="img1" src="d:\Salesnow\63223ca52c095a13a1a74d91_the-future-of-ev-batteries_header.webp">
+          <h2 class="heading">Ev-Olution Homepge</h2>
+          <p class="sub">The EV-olution website header is built using React JS.It includes a background video and a full-screen image slider for interactivity.The header features a headline, subtext, and CTA button to engage users.</p>
+          <a class="a-link" href="https://premkaanolla08.github.io/react-ev-olution/">Click</a>
+        </div>
+       </div>
+    </body>
+  </head>
